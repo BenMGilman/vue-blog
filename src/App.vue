@@ -15,7 +15,7 @@
 <script>
 import HelloWorld from './components/HelloWorld';
 import TheHeader from './components/TheHeader';
-import Blog from './components/Blog';
+import Blog from './components/blog/Blog';
 
 export default {
   name: 'App',
@@ -32,7 +32,6 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 </style>
