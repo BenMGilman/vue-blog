@@ -31,3 +31,25 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+  $blog-title-height: 160px;
+  $blog-content-height: 145px;
+  .md-card {
+    margin: 8px;
+  }
+  .md-card-header {
+    height: $blog-title-height;
+    min-height: $blog-title-height;
+    padding-top: 16px;
+  }
+  .md-card-content {
+    height: $blog-content-height;
+    max-height: $blog-content-height;
+    line-height: 20px;
+    overflow: hidden;
+    > p {
+      margin: 0;
+    }
+  }
+</style>
